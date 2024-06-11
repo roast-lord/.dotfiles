@@ -1,0 +1,11 @@
+[user]
+	email = roastlord.dev@gmail.com
+	name = roast-lord
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[core]
+	editor = nvim

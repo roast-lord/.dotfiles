@@ -1,6 +1,6 @@
 [user]
 	email = roastlord.dev@gmail.com
-	name = roast-lord
+	name = roastlord
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential

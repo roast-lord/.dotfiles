@@ -79,13 +79,11 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting poetry python golang ripgrep emoji screen tmux)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting poetry python golang ripgrep emoji screen)
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/mise
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 source $ZSH/oh-my-zsh.sh
-
-
 
 ZSH_HIGHLIGHT_STYLES[comment]="fg=magenta,bold"
 

@@ -1,8 +1,10 @@
 [window]
-dimensions = { columns = 95, lines = 26 }
-padding = { x = 15, y = 15 }
-decorations = "full"
-opacity = 0.95
+startup_mode = "Maximized"
+dynamic_padding = true
+padding = { x = 2, y = 2  }
+decorations = "Full"
+opacity = 0.80
+
 
 [scrolling]
 history = 100000
@@ -15,8 +17,8 @@ bold_italic = { family = "Iosevka Term", style = "Bold Italic" }
 size = 18
 
 [colors.primary]
-background = "#0e1111"
-foreground = "#f6f5f4"
+background = "#000000"
+foreground = "#d8d8d8"
 
 [colors.normal]
 black = "#000000"

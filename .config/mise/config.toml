@@ -1,0 +1,11 @@
+[tools]
+python = "3.12"
+node = "20"
+go = "latest"
+java = "openjdk-17.0.2"
+lua = "latest"
+usage = "latest"
+dotnet = "latest"
+
+[settings]
+python_compile = true

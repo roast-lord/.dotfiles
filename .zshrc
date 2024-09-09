@@ -79,7 +79,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting poetry python golang ripgrep emoji screen)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting poetry python golang emoji screen mise pip node tmux)
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/mise
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
@@ -134,6 +134,8 @@ export EDITOR="nvim"
 
 alias vim="nvim"
 
+alias vimconfig="nvim ~/.config/nvim/init.lua"
+
 alias py-init="bash ~/projects/py-init/py-init.sh"
 
 alias nvidia-load-config="/usr/bin/nvidia-settings --load-config-only"
@@ -141,6 +143,10 @@ alias nvidia-load-config="/usr/bin/nvidia-settings --load-config-only"
 alias asdf="mise"
 
 alias neofetch="fastfetch"
+
+alias lifbackend="cd ~/projects/lifeinfit/backend"
+
+alias lifbots="cd ~/projects/lifeinfit/bot-telegram"
 
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 

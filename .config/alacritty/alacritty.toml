@@ -1,7 +1,7 @@
 [window]
 startup_mode = "Maximized"
 dynamic_padding = true
-padding = { x = 2, y = 2  }
+padding = { x = 2, y = 2 }
 decorations = "Full"
 opacity = 0.80
 
@@ -34,6 +34,9 @@ white = "#ffffff"
 style = { shape = "Block", blinking = "Always" }
 blink_interval = 550
 blink_timeout = 0
+
+[env]
+TERM = "xterm-256color"
 
 [mouse]
 hide_when_typing = true
